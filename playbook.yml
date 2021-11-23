@@ -28,13 +28,13 @@
         timeout: 60
       delegate_to: localhost
 
-    - name: Include vars from configs directory
-      include_vars:
-        dir: configs
-        ignore_files: [controller_config.yml.template]
-        extensions: ["yml"]
-      tags:
-        - always
+#    - name: Include vars from configs directory
+#      include_vars:
+#        dir: configs
+#        ignore_files: [controller_config.yml.template]
+#        extensions: ["yml"]
+#      tags:
+#        - always
 
   roles:
     - {role: settings, when: controller_settings is defined, tags: settings}
