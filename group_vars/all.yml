@@ -3,3 +3,29 @@ controller_user_accounts:
   - user: "colin"
     is_superuser: false
     password: "redhat"
+
+controller_workflows:
+  - name: Simple workflow schema
+    description: a basic workflow
+    extra_vars: {}
+    survey_enabled: false
+    allow_simultaneous: false
+    ask_variables_on_launch: false
+    inventory: Demo Inventory
+    state: present
+    limit:
+    labels:
+      - Prod
+    scm_branch:
+    ask_inventory_on_launch: false
+    ask_scm_branch_on_launch: false
+    ask_limit_on_launch: false
+    organization: Default
+    schedules: []
+    notification_templates_started: []
+    notification_templates_success: []
+    notification_templates_error: []
+    notification_templates_approvals: []
+    survey_spec: {}
+    webhook_service: GitHub
+    webhook_credential: Github
