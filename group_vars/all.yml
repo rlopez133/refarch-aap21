@@ -1,7 +1,5 @@
 ---
 controller_user_accounts:
-  - user: sean
+  - user: "sean"
     is_superuser: false
-    password: redhat
-
-controller_config_file: "./group_vars"
+    password: "redhat"
