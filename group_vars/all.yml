@@ -4,4 +4,4 @@ controller_user_accounts:
     is_superuser: false
     password: redhat
 
-controller_config_file: ""
+controller_config_file: "./group_vars"
