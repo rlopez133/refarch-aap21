@@ -1,12 +1,5 @@
 ---
 controller_user_accounts:
-  - user: "sean"
+  - user: "colin"
     is_superuser: false
     password: "redhat"
-  - user: "roger"
-    is_superuser: true
-    password: "redhat"
-
-controller_hostname: "controller1.site1.example.com"
-controller_username: "admin"
-controller_password: "redhat"
