@@ -1,6 +1,6 @@
 ---
 controller_user_accounts:
-  - user: roger
+  - user: sean
     is_superuser: false
     password: redhat
 
