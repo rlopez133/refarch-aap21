@@ -3,3 +3,7 @@ controller_user_accounts:
   - user: "sean"
     is_superuser: false
     password: "redhat"
+
+controller_hostname: "controller1.site1.example.com"
+controller_username: "admin"
+controller_password: "redhat"
