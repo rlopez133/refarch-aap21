@@ -1,0 +1,5 @@
+---
+controller_user_accounts:
+  - user: roger
+    is_superuser: false
+    password: redhat
