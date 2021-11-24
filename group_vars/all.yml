@@ -4,7 +4,7 @@ controller_user_accounts:
     is_superuser: false
     password: "redhat"
 
-workflow_job_templates:
+controller_workflows:
 - name: demoing
   description: ''
   extra_vars: {}
