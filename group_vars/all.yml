@@ -7,7 +7,7 @@ controller_user_accounts:
 controller_workflows:
 - name: demoing
   description: ''
-  extra_vars: "---"
+  extra_vars: {}
   organization:
   survey_enabled: false
   allow_simultaneous: false
