@@ -24,7 +24,7 @@ controller_credential_types:
           type: string
           label: Automation Hub Path
         - id: ah_validate_certs
-          type: string
+          type: boolean
           label: Automation Hub Cert Validation
       required:
         - ah_host
