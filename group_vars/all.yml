@@ -25,7 +25,7 @@ controller_credential_types:
           label: Automation Hub Path
         - id: ah_validate_certs
           type: boolean
-          label: Enable Automation Hub SSL
+          label: Enable Automation Hub SSL verification
       required:
         - ah_host
         - ah_username
