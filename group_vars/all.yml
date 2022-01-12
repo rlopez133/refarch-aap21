@@ -39,7 +39,6 @@ controller_credential_types:
         ah_path_prefix: "{% raw %}{  { ah_path_prefix }}{% endraw %}"
         ah_validate_certs: "{% raw %}{  { ah_validate_certs }}{% endraw %}"
 
-
 controller_user_accounts:
 - username: roger
   first_name: Roger
