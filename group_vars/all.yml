@@ -38,3 +38,23 @@ controller_credential_types:
         ah_password: "{% raw %}{  { ah_password }}{% endraw %}"
         ah_path_prefix: "{% raw %}{  { ah_path_prefix }}{% endraw %}"
         ah_validate_certs: "{% raw %}{  { ah_validate_certs }}{% endraw %}"
+
+
+controller_user_accounts:
+- username: roger
+  first_name: Roger
+  last_name: ''
+  email: roger@roger.com
+  is_superuser: false
+  is_system_auditor: false
+  related:
+    roles:
+    - name: Member
+      type: role
+      content_object:
+        name: Default
+        type: organization
+  natural_key:
+    username: roger
+    type: user
+
